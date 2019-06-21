@@ -1,0 +1,21 @@
+Type: Compendium
+Package: axolotyl
+Title: This package helps with my data analysis of axolotyls
+Version: 0.0.1
+Authors@R: 
+    person(given = "Nicholas",
+           family = "Tierney",
+           role = c("aut", "cre"),
+           email = "nicholas.tierney@gmail.com",
+           comment = c(ORCID = "0000-0003-1460-8722"))
+Description: A package about axolotyls
+License: What license it uses
+Depends: 
+    dataRetrieval,
+    dplyr,
+    ggplot2,
+    lubridate,
+    tidyr,
+    viridis
+Encoding: UTF-8
+LazyData: true
